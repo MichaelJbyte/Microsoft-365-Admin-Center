@@ -20,45 +20,35 @@ This lab simulates an office environment utilizing the Microsoft 365 Admin Cente
 
 The Microsoft 365 Admin Center is a page used to easily manage users, devices, emails, teams, and more for a business operation. Administrators given access can assist employees with daily issues such as account lockout, lost emails, invalid licenses, and any other technical issues that may regard a user. Understanding the admin center is crucial to assisting others in an IT and cybersecurity role.
 
-## Packet Capture & Initial Analysis (*)
-To begin the lab, I installed Wireshark and the necessary Npcap. After launching the application, I ran a live packet capture on the active network interface.
-
-Using the Statistics -> Conversations menu, I reviewed communication between IP addresses captured during the session. This view summarized protocol usage, packet counts, and source/destination addresses.
-
-photo
-
-This step provided an overview of network activity during the packet capture.
-
-Filtering Traffic
-Next, I practiced applying filters to narrow down packet results.
-
-By selecting IP addresses from the Conversations window, I applied filters directly to isolate traffic related to specific hosts. I also used the display filter bar to manually enter filters for protocols and ports.
-
-Example filter used:
-
-tcp.port == 80 || udp.port == 80
-Filters are essential when working with large captures, allowing analysts to focus on relevant packets related to an investigation or troubleshooting task.
-
-Packet Inspection & Stream Analysis
-I reviewed individual packet details in the packet pane, examining protocol layers and header information. I also explored the Follow Stream feature to reconstruct conversations from captured packets.
-
-This feature is commonly used to analyze session-based traffic and can assist in identifying suspicious behavior, such as phishing attempts or unauthorized communications.
-
-photo
-
-Interface Customization
-In addition, I explored Wireshark’s customization options through the Preferences menu, including:
-
-Display layout adjustments
-Field visibility
-Color rules
-Customizing these settings improves readability and helps quickly flag down packet types or anomalies during analysis.
+## Microsoft 365 Admin Center
 
 ___________________________________________________________________________
-photo
+![photo1](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/dashboard01.png)
 ___________________________________________________________________________
-photo
+
+## User Account Management
+
 ___________________________________________________________________________
+![photo2](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/add_user02.png)
+___________________________________________________________________________
+
+
+___________________________________________________________________________
+![photo3](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/user_info01.png)
+___________________________________________________________________________
+
+## Account Block & Password Reset
+
+___________________________________________________________________________
+![photo4](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/main/blocked_user03.jpg)
+___________________________________________________________________________
+
+## Microsoft Intune Admin Center 
+
+## Microsoft Entra Admin Center 
+
+## Microsoft Exchange Admin Center 
+
 
 ## Results & Observations (*)
 
