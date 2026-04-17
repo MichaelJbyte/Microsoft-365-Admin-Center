@@ -22,26 +22,47 @@ The Microsoft 365 Admin Center is a page used to easily manage users, devices, e
 
 ## Microsoft 365 Admin Center
 
+Beginning the lab, I open up the Microsoft 365 Admin Center and am welcomed to the dashboard. This page will be very useful in providing shortcuts for frequent IT tasks such as user account management, resetting passwords, and even Microsoft 365 license alerts.
+
+I took some time to study the home page layout to affiliate with recurring tasks I may perform and the shortcut locations relating to them.
+
 ___________________________________________________________________________
 ![photo1](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/dashboard01.png)
 ___________________________________________________________________________
 
 ## User Account Management
 
+My next course of action was to add user accounts to this environment. Clicking the "Users" tab on the left, I proceed to create three types of users that will have different roles related to the rest of the lab:
+* User with licenses [1]
+* User with no licenses [2]
+* User with licenses, inteded to be blocked [3]
 ___________________________________________________________________________
 ![photo2](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/add_user02.png)
 ___________________________________________________________________________
 
+When creating the accounts, I took note of all the available options that are presented during creation such as **password creation, product license distribution, roles, and contact/personal information.**
 
+After selectively constructing each user account, I view the new list of three users I created. Clicking on a user displays a user detail panel which houses a variety of information such as:
+* Account details
+* Password resetting
+* Active licenses & apps
+
+This panel is an essential page hosting a wide amount of information and options which I take note of, planning to return for completing tasks such as a password reset and account lockout.
 ___________________________________________________________________________
 ![photo3](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/user_info01.png)
 ___________________________________________________________________________
 
 ## Account Block & Password Reset
 
+The next task was to become familiar with common workplace scenarios such as an account lockout and a password reset.
+
+Utilizing the user detail panel from before, I select the option to block any log-in for the account I 
+
 ___________________________________________________________________________
 ![photo4](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/main/blocked_user03.jpg)
 ___________________________________________________________________________
+
+summarize how i am now familiar with that task. ^^^^
 
 ## Microsoft Intune Admin Center 
 
