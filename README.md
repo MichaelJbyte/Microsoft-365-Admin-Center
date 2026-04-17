@@ -77,6 +77,13 @@ I am presented with an option to prompt the user to change their password upon n
 ### License Application
 My last task was to apply a Microsoft license to an account that was not initially given one. This is another common matter in which a user may not have access to the Microsoft 365 license or any necessary apps found within.
 
+Found under the all-purpose user detail panel, I assign the product license and select applications, regarding to emails, to the user created without any license.
+
+___________________________________________________________________________
+![photo6](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/c1ae78f0dfe4b806d8864b7ec05a4c191a9a1a05/user_license01.png)
+___________________________________________________________________________
+
+
 ## Microsoft Intune Admin Center 
 
 ## Microsoft Entra Admin Center 
