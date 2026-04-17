@@ -52,17 +52,30 @@ ___________________________________________________________________________
 ![photo3](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/user_info01.png)
 ___________________________________________________________________________
 
-## Account Block & Password Reset
+## User Practice (Account Block, Password Reset, License Application)
 
-The next task was to become familiar with common workplace scenarios such as an account lockout and a password reset.
+### Account Block
+The next task was to become familiar with common workplace scenarios such as an account lockout, password reset, and license management.
 
-Utilizing the user detail panel from before, I select the option to block any log-in for the account I 
+Utilizing the user detail panel from before, I select the option to block any log-in for the delegated user account, "BlockedUser Three." The panel confirms this action in bold red letters stating **Sign-in blocked**, but I further test this by attempting to login with the affected account. The login page notifies me that the account has been locked showing me the action has worked. 
+
+The button to undo this ban is found in the exact same place, thus informing me all I need to handle account lockouts.
 
 ___________________________________________________________________________
 ![photo4](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/main/blocked_user03.jpg)
 ___________________________________________________________________________
 
-summarize how i am now familiar with that task. ^^^^
+### Password Reset
+The reset password function can be found under the same user panel and, although simple, it is a common solution to a regular issue found in the workplace.
+
+___________________________________________________________________________
+![photo5](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/bdd34ebd0b9add3745cb507306a3105372219f67/psswd_reset01.png)
+___________________________________________________________________________
+
+I am presented with an option to prompt the user to change their password upon next login. I enable this option for testing purposes, however I do understand that depending on a businesses' practice, this may not be a secure option.
+
+### License Application
+My last task was to apply a Microsoft license to an account that was not initially given one. This is another common matter in which a user may not have access to the Microsoft 365 license or any necessary apps found within.
 
 ## Microsoft Intune Admin Center 
 
