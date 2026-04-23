@@ -86,7 +86,32 @@ ___________________________________________________________________________
 
 ## Microsoft Entra, Exchange, & Intune Admin Center 
 
+After becoming familiar with the Microsoft 365 admin center, I decided to look into other relative admin centers within Microsoft 365 that may be used for IT responsibilities. These being the Microsoft Entra, Exchange, and Intune centers.
 
+### Microsoft Entra 
+
+Entra is similar to Active Directory, hosting most identity management tools for users on Microsoft Azure.
+
+* I found Entra provided more user information and easier tools for editing user properties.
+
+I surveyed many of the addtional tools such as **authentication policies, risk conditions, traffic logs, security policies, and network settings.** However there was one tab, the group tab, which I expanded on.
+
+I informed myself of groups and their related settings because they are a significant piece to organizing an office environment. Analyzing the variety of options, I become familiar with:
+* Blacklists
+* Group retention policies
+* Group audit logs
+
+Additionally, I configure a new group, the "Billing Admin Group," to understand the creation restrictions and how adding users goes about.
+
+___________________________________________________________________________
+![photo7](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/b5c43b197e598caf0eb4d18d3fc8f776f27928f3/add_group01.png)
+___________________________________________________________________________
+
+### Microsoft Exchange & Intune Admin Center
+
+Exchange is associated with user emails and the troubleshooting that goes along with them. Microsoft Intune, on other hand, manages company-appointed devices.
+
+Simple exposure was only necessary for these two admin centers due to their similarity with Entra and Microsoft 365.
 
 ## Results & Observations (*)
 
