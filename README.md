@@ -1,5 +1,5 @@
 # Microsoft-365-Admin-Center
-Lab focused on familiarizing with the Microsoft 365 Admin Center layout to better my understanding of user settings, common troubleshooting scenarios, and everyday routines. 4/13/26
+Lab focused on familiarizing myself with the Microsoft 365 Admin Center layout to improve my understanding of user management, common troubleshooting scenarios, and daily IT support tasks. 4/13/26
 
 This lab simulates an office environment utilizing the Microsoft 365 Admin Center. I achieved greater knowledge of the layout by performing regular IT tasks such as user creation and management, policy enforcement, license distribution, and password resets.
 
@@ -12,19 +12,19 @@ This lab simulates an office environment utilizing the Microsoft 365 Admin Cente
 
 ## Objectives
 * Create and manage mulitple users
-* Administer and remove Microsoft licenses and apps
+* Assign and remove Microsoft licenses and applications
 * Perform user deletion and password resets
 * Understand admin center layouts and tools
 
 ## Background: Microsoft 365 Admin Center
 
-The Microsoft 365 Admin Center is a page used to easily manage users, devices, emails, teams, and more for a business operation. Administrators given access can assist employees with daily issues such as account lockout, lost emails, invalid licenses, and any other technical issues that may regard a user. Understanding the admin center is crucial to assisting others in an IT and cybersecurity role.
+The Microsoft 365 Admin Center is a page used to easily manage users, devices, emails, teams, and more for a business operation. Administrators can assist users with daily issues such as account lockouts, missing emails, license problems, and other technical concerns. Understanding the admin center is crucial to assisting others in an IT and cybersecurity role.
 
 ## Microsoft 365 Admin Center
 
 Beginning the lab, I open up the Microsoft 365 Admin Center and am welcomed to the dashboard. This page will be very useful in providing shortcuts for frequent IT tasks such as user account management, resetting passwords, and even Microsoft 365 license alerts.
 
-I took some time to study the home page layout to affiliate with recurring tasks I may perform and the shortcut locations relating to them.
+I took some time to study the home page layout to familiarize myself with recurring tasks I may perform and the shortcut locations relating to them.
 
 ___________________________________________________________________________
 ![photo1](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/dashboard01.png)
@@ -35,14 +35,14 @@ ___________________________________________________________________________
 My next course of action was to add user accounts to this environment. Clicking the "Users" tab on the left, I proceed to create three types of users that will have different roles related to the rest of the lab:
 * User with licenses [1]
 * User with no licenses [2]
-* User with licenses, inteded to be blocked [3]
+* User with licenses, intended for account blocking [3]
 ___________________________________________________________________________
 ![photo2](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/aaf7baaeba50e5112922c82cb9f6a1fa9608f17e/add_user02.png)
 ___________________________________________________________________________
 
 When creating the accounts, I took note of all the available options that are presented during creation such as **password creation, product license distribution, roles, and contact/personal information.**
 
-After selectively constructing each user account, I view the new list of three users I created. Clicking on a user displays a user detail panel which houses a variety of information such as:
+After selectively constructing each user account, I reviewed the list of newly created users. Clicking on a user displays a user detail panel which contains key information such as:
 * Account details
 * Password resetting
 * Active licenses & apps
@@ -57,27 +57,27 @@ ___________________________________________________________________________
 ### Account Block
 The next task was to become familiar with common workplace scenarios such as an account lockout, password reset, and license management.
 
-Utilizing the user detail panel from before, I select the option to block any log-in for the delegated user account, "BlockedUser Three." The panel confirms this action in bold red letters stating **Sign-in blocked**, but I further test this by attempting to login with the affected account. The login page notifies me that the account has been locked showing me the action has worked. 
+Utilizing the user detail panel from before, I select the option to block sign-in for the delegated user account, "BlockedUser Three." The panel confirms this action in bold red letters stating **Sign-in blocked**, but I further test this by attempting to login with the affected account. The login page notifies me that the account has been locked showing me the action has worked. 
 
-The button to undo this ban is found in the exact same place, thus informing me all I need to handle account lockouts.
+The option to unblock the account is located in the same panel, thus informing me all I need to handle account lockouts.
 
 ___________________________________________________________________________
 ![photo4](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/main/blocked_user03.jpg)
 ___________________________________________________________________________
 
 ### Password Reset
-The reset password function can be found under the same user panel and, although simple, it is a common solution to a regular issue found in the workplace.
+The reset password function can be found under the same user panel and, although simple, it is a common solution to frequent workplace issues.
 
 ___________________________________________________________________________
 ![photo5](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/c315523708b0b760397e5968e8a512537e68baf7/psswd_reset02.png)
 ___________________________________________________________________________
 
-I am presented with an option to prompt the user to change their password upon next login. I enable this option for testing purposes, however I do understand that depending on a businesses' practice, this may not be a secure option.
+I am presented with an option to prompt the user to change their password upon next login. I enable this option for testing purposes, however I do understand that this may vary depending on organizational security policies.
 
 ### License Application
 My last task was to apply a Microsoft license to an account that was not initially given one. This is another common matter in which a user may not have access to the Microsoft 365 license or any necessary apps found within.
 
-Found under the all-purpose user detail panel, I assign the product license and select applications, regarding to emails, to the user created without any license.
+Found under the all-purpose user detail panel, I assign the product license and select applications, related to email services, to the user created without any license.
 
 ___________________________________________________________________________
 ![photo6](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/c1ae78f0dfe4b806d8864b7ec05a4c191a9a1a05/user_license01.png)
@@ -94,12 +94,12 @@ Entra is similar to Active Directory, hosting most identity management tools for
 
 * I found Entra provided more user information and easier tools for editing user properties.
 
-I surveyed many of the addtional tools such as **authentication policies, risk conditions, traffic logs, security policies, and network settings.** However there was one tab, the group tab, which I expanded on.
+I surveyed many of the additional tools such as **authentication policies, risk conditions, traffic logs, security policies, and network settings.** However there was one tab, the group tab, which I expanded on.
 
-I informed myself of groups and their related settings because they are a significant piece to organizing an office environment. Analyzing the variety of options, I become familiar with:
-* Blacklists
-* Group retention policies
-* Group audit logs
+I focused on understanding groups and their related settings because they are a significant piece to organizing an office environment. Analyzing the variety of options, I became familiar with:
+* Group membership management
+* Access control through group assignments
+* Audit and activity logs
 
 Additionally, I configure a new group, the "Billing Admin Group," to understand the creation restrictions and how adding users goes about.
 
@@ -109,11 +109,11 @@ ___________________________________________________________________________
 
 ### Microsoft Exchange & Intune Admin Center
 
-Exchange is associated with user emails and the troubleshooting that goes along with them. Microsoft Intune, on other hand, manages company-appointed devices.
+Exchange is associated with user emails and the troubleshooting that goes along with them. Microsoft Intune, on the other hand, manages company-appointed devices.
 
 Simple exposure was only necessary for these two admin centers due to their similarity with Entra and Microsoft 365.
 
-Regarding Microsoft Exchange I became familiar with the following settings and their location is the admin center:
+Regarding Microsoft Exchange, I became familiar with the following settings and their location within the admin center:
 * Email forwarding
 * Message tracing
 * Mailbox alerts
@@ -122,13 +122,15 @@ As for Microsoft Intune, what I learned is below:
 * Device policies
 * Device compliance
 
-## Results & Observations (*)
+## Results & Observations
 
-I am actually not sure what to put for this section. Should I even still include this?
+* User account actions (creation, blocking, password resets) take immediate effect and can be verified through sign-in attempts
+* License assignment directly controls access to Microsoft 365 services and applications
+* Admin centers are interconnected, but each focuses on specific administrative functions
 
 ## IT & Security Relevance
 
-The Microsoft 365 Admin Center is a tool required daily for roles such as IT support, commonly assesing problems users face daily in the workplace, and enforcing security policies for operational safety. This lab assisted in a foundational understanding of the many settings and options available in the admin center I can expect to use for realisitic scenarios.
+The Microsoft 365 Admin Center is a tool required daily for roles such as IT support, commonly assessing problems users face daily in the workplace, and enforcing security policies for operational safety. This lab provided a strong foundational understanding of the tools and workflows used in real IT support environments.
 
 # Lessons Learned
 
