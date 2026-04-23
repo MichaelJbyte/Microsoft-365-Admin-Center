@@ -69,7 +69,7 @@ ___________________________________________________________________________
 The reset password function can be found under the same user panel and, although simple, it is a common solution to a regular issue found in the workplace.
 
 ___________________________________________________________________________
-![photo5](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/bdd34ebd0b9add3745cb507306a3105372219f67/psswd_reset01.png)
+![photo5](https://github.com/MichaelJbyte/Microsoft-365-Admin-Center/blob/c315523708b0b760397e5968e8a512537e68baf7/psswd_reset02.png)
 ___________________________________________________________________________
 
 I am presented with an option to prompt the user to change their password upon next login. I enable this option for testing purposes, however I do understand that depending on a businesses' practice, this may not be a secure option.
@@ -84,11 +84,8 @@ ___________________________________________________________________________
 ___________________________________________________________________________
 
 
-## Microsoft Intune Admin Center 
+## Microsoft Entra, Exchange, & Intune Admin Center 
 
-## Microsoft Entra Admin Center 
-
-## Microsoft Exchange Admin Center 
 
 
 ## Results & Observations (*)
