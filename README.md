@@ -113,15 +113,23 @@ Exchange is associated with user emails and the troubleshooting that goes along 
 
 Simple exposure was only necessary for these two admin centers due to their similarity with Entra and Microsoft 365.
 
+Regarding Microsoft Exchange I became familiar with the following settings and their location is the admin center:
+* Email forwarding
+* Message tracing
+* Mailbox alerts
+
+As for Microsoft Intune, what I learned is below:
+* Device policies
+* Device compliance
+
 ## Results & Observations (*)
 
-Live packet captures provide immediate visibility into network activity
-Filters significantly reduce noise in large packet captures
-Packet inspection reveals detailed protocol and session information
+I am actually not sure what to put for this section. Should I even still include this?
 
 ## IT & Security Relevance
 
 The Microsoft 365 Admin Center is a tool required daily for roles such as IT support, commonly assesing problems users face daily in the workplace, and enforcing security policies for operational safety. This lab assisted in a foundational understanding of the many settings and options available in the admin center I can expect to use for realisitic scenarios.
 
-# Lessons Learned (*)
-This lab helped me become comfortable navigating Wireshark and understanding the structure of captured network traffic. I learned how to apply filters effectively, inspect packets, and interpret basic communication patterns. In future labs, I would expand this work by analyzing specific protocols in more depth and testing capture scenarios within a virtualized network.
+# Lessons Learned
+
+This Microsoft 365 admin center walkthrough proved to be very helpful in affiliating me with the admin center and readying troubleshooting skills I will need. I have now become familiar with most settings related to user management, password resets, mailboxes, 365 licenses, and devices. This lab serves as a standard introduction to this platform that I intend to expand my knowledge on in the coming future. 
